@@ -103,6 +103,7 @@ public sealed class PlayerCollideSystem : UpdateSystem
 
                 World.GetEvent<EventScoreUpdated>()
                     .NextFrame(new EventScoreUpdated() { Score = score.Value });
+                break;
             }
 
             scores.Dispose();

@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.codewriter.morpeh.events": {
+      "version": "https://github.com/codewriter-packages/Morpeh.Events.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "2715a0fe2b0ff6ebfeed81adeeb3c74f17993263"
+    },
     "com.codewriter.triinspector": {
       "version": "https://github.com/codewriter-packages/Tri-Inspector.git",
       "depth": 0,
@@ -15,6 +22,13 @@
       "source": "git",
       "dependencies": {},
       "hash": "184573e077a73a290541d2f9ad1a1c3180b2f913"
+    },
+    "com.tayx.graphy": {
+      "version": "https://github.com/Tayx94/graphy.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7b634c383ae631e7f4efaf08235c2d829a7d3ecc"
     },
     "com.unity.addressables": {
       "version": "1.19.19",

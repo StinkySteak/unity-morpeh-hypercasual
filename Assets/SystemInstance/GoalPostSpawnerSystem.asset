@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bfd3dbe70fefa3439ae2becccc017a0, type: 3}
+  m_Name: GoalPostSpawnerSystem
+  m_EditorClassIdentifier: 
+  _initialSpawnPosition: {x: 0, y: 0, z: 0}
+  _zOffset: 5
+  _goalPostPrefab: {fileID: 7872659568026685646, guid: d395adac4b5c79145b1f24bd4499f2d0, type: 3}
+  _initialSpawnGoalPost: 5

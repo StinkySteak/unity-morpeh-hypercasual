@@ -834,8 +834,6 @@ GameObject:
   - component: {fileID: 1137948121}
   - component: {fileID: 1137948125}
   - component: {fileID: 1137948124}
-  - component: {fileID: 1137948126}
-  - component: {fileID: 1137948127}
   - component: {fileID: 1137948128}
   m_Layer: 0
   m_Name: Player
@@ -953,33 +951,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serializedData:
     Transform: {fileID: 1137948120}
---- !u!114 &1137948126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1137948116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4832b2e4c5ec5c74f9bf9fb5aa8f543b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  serializedData:
-    SphereRadius: 1
---- !u!114 &1137948127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1137948116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b55f27c0ffdb824ea80f7100b512998, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _config: {fileID: 11400000, guid: 29068d46e87073747b740f4cc8ba9b5c, type: 2}
 --- !u!114 &1137948128
 MonoBehaviour:
   m_ObjectHideFlags: 0

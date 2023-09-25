@@ -10,7 +10,7 @@ Platform: Windows & Android
 
 ### Project Preview
 
-
+![ProjectPreview](Docs/project_preview.gif)
 
 ### Manuals
 #### Systems

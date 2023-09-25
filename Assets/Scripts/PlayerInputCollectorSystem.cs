@@ -2,6 +2,7 @@ using Scellecs.Morpeh.Systems;
 using UnityEngine;
 using Unity.IL2CPP.CompilerServices;
 using Scellecs.Morpeh;
+using StinkySteak.ScreenResolution;
 
 [Il2CppSetOption(Option.NullChecks, false)]
 [Il2CppSetOption(Option.ArrayBoundsChecks, false)]
@@ -49,6 +50,13 @@ public sealed class PlayerInputCollectorSystem : UpdateSystem
         Entity e = _mobileInputFilter.First();
         ref ActiveMobileInput mobileInput = ref e.GetComponent<ActiveMobileInput>();
 
+        float sensitivity = .5f;
+        Vector2 targetResolutionSensitivity = new(1080, 1920);
+
+        Vector2 currentResolution = ScreenResolutionUtil.GetResolution();
+
+        float newSensitivity = ScreenResolutionUtil.GetAxisDivider(sensitivity, currentResolution.x, targetResolutionSensitivity.x);
+
         if (Input.GetMouseButtonDown(0))
         {
             mobileInput.TouchPositionX = Input.mousePosition.x;
@@ -57,7 +65,7 @@ public sealed class PlayerInputCollectorSystem : UpdateSystem
         float currentMousePositionX = Input.mousePosition.x;
         float previousMousePositionX = mobileInput.TouchPositionX;
 
-        float delta = (currentMousePositionX - previousMousePositionX) / 2;
+        float delta = (currentMousePositionX - previousMousePositionX) * newSensitivity;
 
         mobileInput.TouchPositionX = currentMousePositionX;
         mobileInput.DeltaX = delta;

@@ -12,6 +12,10 @@ Platform: Windows & Android
 
 ![ProjectPreview](Docs/project_preview.gif)
 
+### Known Issues
+1. Inconsistent sensitivity between editor & build
+2. High horizontal input may push player off the map
+
 ### Manuals
 #### Systems
 1. `PlayerMovementSystem`

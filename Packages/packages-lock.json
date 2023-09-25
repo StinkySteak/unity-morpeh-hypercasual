@@ -23,6 +23,13 @@
       "dependencies": {},
       "hash": "184573e077a73a290541d2f9ad1a1c3180b2f913"
     },
+    "com.stinkysteak.screen-resolution-util": {
+      "version": "https://github.com/StinkySteak/unity-screen-resolution-util.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5461a05a537b3ae5bd8bc223c7fb8f99c23f3fcb"
+    },
     "com.tayx.graphy": {
       "version": "https://github.com/Tayx94/graphy.git",
       "depth": 0,
@@ -173,6 +180,13 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.yasirkula.ingamedebugconsole": {
+      "version": "https://github.com/yasirkula/UnityIngameDebugConsole.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "be8bee9fb8506b4b55d9f0e4d30ae3f39313d0a4"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

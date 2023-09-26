@@ -22,7 +22,7 @@ Platform: Windows & Android
 Move Player Forward & Horizontally based on Input
 
 2. `FloorMovingSystem`
-Move Player based on Player Forward Speed
+Move the Floor based on Player Forward Speed
 
 3. `GoalPostSpawnerSystem`
 Spawn Goals & Relocate them on triggered
